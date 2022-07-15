@@ -1,0 +1,9 @@
+{
+  "name": "emailjs-tcp-socket",
+  "description": "Library for Pmailer IMAP tcp socket handling",
+  "owner": "Tuvi",
+  "type": "library",
+  "status": "released",
+  "tags": [],
+  "launchpad": "Tuvi"
+}
