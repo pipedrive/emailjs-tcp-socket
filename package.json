@@ -15,6 +15,9 @@
     }
   ],
   "license": "MIT",
+  "engines": {
+    "node": ">=22.0.0"
+  },
   "scripts": {
     "build": "npm run build-worker && rm -rf dist && babel src --out-dir dist --ignore '**/*-unit.js' --source-maps inline",
     "build-worker": "rm -f res/tls.worker.blob && npx webpack --config webpack.config.worker.js -p && mv res/tls.worker.js res/tls.worker.blob",
